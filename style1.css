@@ -1,0 +1,29 @@
+div{
+    background:white;
+    color:black;
+    text-align:left;
+    margin:auto;
+    width:500px;
+    box-shadow:2px 2px 15px black;
+    padding:15px;
+    height:900px;
+    border-radius:20px;
+    }
+    h2:hover{
+    text-decoration:underline white;
+    }
+    input{
+    accent-color:blue;
+    }
+    button:hover{
+    width:150px;
+    height:50px;
+    border-radius:10px;
+    background:#0033cc;
+    color:black;
+    text-align:center;
+    }
+    [type="text"],[type="email"],[type="number"],[type="date"]{
+    width:150px;
+    font-size:10px;
+    }

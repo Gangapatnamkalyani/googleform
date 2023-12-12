@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<link rel="stylesheet" href="style1.css">
+<style>
+ span{
+color:red;
+}
+</style>
+ </head>
+ <body>
+<form action="action.txt" method="get" autocomplete="off">
+<div>
+<h2>GOOGLE FORM</h2>
+<p>THE DETAILS WHAT YOU MENTIONED IS MUST BE TRUE <br>IF ANY CASE WRONG WE ARE NOT RESPONSIBLE FOR THAT<br>
+           PLEASE MENTION CORRECT CONTACT INFORMATION</br>
+           THE DETAILS WITH <span>*</span> IS MANDATARY </p>
+<p><label>Enter ur Email</label><span>*</span>
+<input type="email" id="mid" name="mid" placeholder="Enter ur Email" maxlength="20"required></p>
+<label>Enter ur name</label><span>*</span>
+<input type="text" id="n" name="name" placeholder="Enter ur name" required></p>
+<p><label>Contact No.</label><span>*</span>
+<input type="number" id="num" name="num" minlength="10" required></p>
+<label>Select ur Gender</label>
+<select id="gender">
+<option value="F">Female</option>
+<option value="F">Male</option>
+<option value="F">Transgender</option>
+<option value="F">Not preffered to say</option>
+</select>
+<p><label>date of birth</label>
+<input type="date" id="date" name="date" min="1990-01-01" max="2012-12-01"></p>
+<p><label>adress<label><br>
+<textarea id="ta" name="ta" rows="6" cols="30"></textarea></p>
+<label>Enter ur state</label><span>*</span>
+<input type="text" id="n" name="name" required></p>
+<p><label>COUNTRY NAME</label>
+<select id="coun" name="coun"><span>*</span>
+<option>AFRICA</option>
+<option>UK</option>
+<option>INDIA</option>
+<option>RUSIA</option>
+<option>AUSTRALIA</option>
+<option>NORTH AMEICA</option>
+<option>south america</option>
+<option>ANTARTICA</option>
+<option>ANDAMAN & NICOBAR</option>
+</select></p>
+<p><label>Mention your skills</label><br>
+<textarea rows="5" cols="30"></textarea></p>
+<p><label>website URL</label>
+<input type="file" multiple id="f" name="f"></p>
+<p><label>UPLOAD RESUME</label>
+<input type="file" id="res" name="res"></p>
+<button onclick="confirm('wait your data loading')">submit </button>
+</div>
+<p align="center">&COPY COPYRIGHTS RESERVERD IN 2019</P>
+</form> 
+ </body>
+</html>
